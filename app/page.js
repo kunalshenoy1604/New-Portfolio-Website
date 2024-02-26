@@ -8,6 +8,7 @@ import deved from '../public/deved.jpg'
 import datavis from "../public/datavis.jpg"
 import ai from "../public/ai.jpg"
 import computervision from "../public/computervision.png"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://www.instagram.com/iamkunaaaaal/" target="_blank" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">KunalShenoy</span>
+      <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white md:px-20">KunalShenoy</span>
   </a>
   <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <button type="button" class="text-white bg-teal-600 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-teal-600 dark:hover:text-teal-700 dark:focus:ring-teal-800"><a href="https://drive.google.com/file/d/1lu4fk5lrOPnjlT_TityTx_mJnnm4qe26/view?usp=sharing"  target="_blank" rel="noopener noreferrer">Resume</a></button>
@@ -60,8 +61,8 @@ export default function Home() {
   </div>
 </nav>
 
-<div className="text-center p-10 pb-5">
-            <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 text-5xl font-bold text-teal-600 mx-auto py-9 pb-6 mt-8">Kunal Shenoy</h2>
+<div className="text-center p-10 pb-5 md:px-20 lg:px-40">
+            <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 text-5xl font-bold text-teal-600 mx-auto py-9 pb-6 mt-8 sm:px-12">Kunal Shenoy</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Data Scientist</h3>
             <p className="text-md py-5 leading-6 text-gray-800 md:text-xl">
               Passionate about data and it's applications, I am proficient in  & Machine Learning, Deep Learning and Artificial Intelligence. Additionally, my efficient leadership skills enable me to drive teams towards success. I am always looking for opportunities to learn and grow in these areas and I am excited to connect with like-minded professionals in the industry.
@@ -441,4 +442,3 @@ Bringing extensive team management and campaign expertise, complemented by hands
   
   );
 }
-
