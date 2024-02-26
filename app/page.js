@@ -159,7 +159,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
       <div class="grid gap-8 mb-6 md:grid-cols-2">
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="https://www.linkedin.com/company/stme-nmims-navi-mumbai/mycompany/" target="_blank">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="stuco.png" alt="Head of Marketing"/>
+                  <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/stuco.png" alt="Head of Marketing" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -173,7 +173,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="e-cell.png" alt="Head of Administration"/>
+              <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/e-cell.png" alt="Head of Marketing" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white pt-5">
@@ -187,7 +187,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="unstop.png" alt="Regional Student Director"/>
+              <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/unstop.png" alt="Regional Student Director" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white pt-5">
@@ -201,7 +201,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="netra.png" alt="Campaign Manager"/>
+              <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/netra.png" alt="Head of Marketing" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white pt-5">
@@ -215,7 +215,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="codeclause.png" alt="Data Science Intern"/>
+              <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/CodeClause.png" alt="DataScience Intern" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white pt-5">
@@ -229,13 +229,13 @@ Bringing extensive team management and campaign expertise, complemented by hands
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="codsoft.png" alt="Machine Learning Intern"/>
+                <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/codsoft.png" alt="Machine Learning Intern" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white pt-5">
                       <a href="#">Machine Learning Intern</a>
                   </h3>
-                  <span class="text-gray-500 dark:text-gray-400 pb-4">Entrepreneurship Cell, STME</span>
+                  <span class="text-gray-500 dark:text-gray-400 pb-4">CodSoft</span>
                   <h4 class="text-l font-bold tracking-tight text-gray-900 dark:text-white py-3">September '23 - October '23</h4>
                   <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Worked on several Machine Learning projects. Performed deep Exploratory Data Analysis and Visualizations</p>
 
@@ -256,7 +256,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
     <div class="grid gap-x-6 lg:grid-cols-3 lg:gap-x-12">
       <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
         <div class="relative overflow-hidden bg-cover bg-no-repeat">
-          <img src="weatherapp1.jpg" class="w-full rounded-t-lg" />
+          <Image className="w-full rounded-t-lg" src="/weatherapp1.jpg" alt="Weather App" width={425} height={45}/>
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -280,7 +280,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
 
       <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0">
         <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src="smartinventory.jpg" class="w-full rounded-t-lg" />
+        <Image className="w-full rounded-t-lg" src="/smartinventory.jpg" alt="Smart Inventory" width={425} height={45}/>
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -304,7 +304,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
 
       <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
         <div class="relative overflow-hidden bg-cover bg-no-repeat" data-te-ripple-init data-te-ripple-color="light">
-          <img src="croppred.jpg" class="w-full rounded-t-lg" />
+        <Image className="w-full rounded-t-lg" src="/croppred.jpg" alt="Crop Pred" width={425} height={45}/>
           <a href="#!">
             <div
               class="absolute top-0 right-0 bottom-0 left-0 h-full w-full bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]"></div>
@@ -337,47 +337,47 @@ Bringing extensive team management and campaign expertise, complemented by hands
 <div class="flex flex-wrap gap-9 justify-center min-h-screen py-5">
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-32" src="pythonPP.png"/>
+        <Image src="/pythonPP.png" alt="Python" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-48" src="html-css.jpg"/>
+        <Image src="/html-css.jpg" alt="Python" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-48" src="my-sql.png"/>
+        <Image src="/my-sql.png" alt="My-Sql" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-48" src="react.png"/>
+        <Image src="/react.png" alt="React" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-32" src="nextjs.png"/>
+        <Image src="/nextjs.png" alt="Nextjs" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-48" src="github.png"/>
+        <Image src="/github.png" alt="GitHub" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-32" src="vs-code.png"/>
+        <Image src="/vs-code.png" alt="VSCode" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-32" src="figma.png"/>
+        <Image src="/figma.png" alt="figma" width={200} height={45}/>
         </div>
     </div>
     <div class="transform  rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:scale-105">
         <div class="flex h-full justify-center items-center">
-        <img className="w-48" src="ms-office.png"/>
+        <Image src="/ms-office.png" alt="MSOffice" width={200} height={45}/>
         </div>
     </div>
 </div>
@@ -441,3 +441,4 @@ Bringing extensive team management and campaign expertise, complemented by hands
   
   );
 }
+
