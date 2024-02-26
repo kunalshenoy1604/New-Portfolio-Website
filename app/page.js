@@ -215,7 +215,7 @@ Bringing extensive team management and campaign expertise, complemented by hands
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-              <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/CodeClause.png" alt="DataScience Intern" width={300} height={45} />
+              <Image className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/codeclause.png" alt="DataScience Intern" width={300} height={45} />
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white pt-5">
