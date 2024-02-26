@@ -8,7 +8,7 @@ import deved from '../public/deved.jpg'
 import datavis from "../public/datavis.jpg"
 import ai from "../public/ai.jpg"
 import computervision from "../public/computervision.png"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 export default function Home() {
   return (
